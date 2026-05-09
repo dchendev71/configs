@@ -14,6 +14,8 @@ require("lazy").setup({
 	require("plugins.formatting"),
 	require("plugins.mason-tools"),
 	require("plugins.telescope"),
+	require("plugins.lualine"),
+	require("plugins.which-key"),
 })
 
 -- Vim options
