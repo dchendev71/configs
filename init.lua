@@ -13,6 +13,7 @@ require("lazy").setup({
 	require("plugins.completion"),
 	require("plugins.formatting"),
 	require("plugins.mason-tools"),
+	require("plugins.telescope"),
 })
 
 -- Vim options
