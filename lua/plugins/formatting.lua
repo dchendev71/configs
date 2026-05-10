@@ -10,6 +10,7 @@ return {
 				python = { "isort", "black" },
 				java = { "google-java-format" },
 				json = { "prettier" },
+				sql = { "sql_formatter" },
 			},
 			format_on_save = {
 				lsp_fallback = true, -- If no formatter is found, try the LSP
