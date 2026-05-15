@@ -8,9 +8,10 @@ return {
 			formatters_by_ft = {
 				lua = { "stylua" },
 				python = { "isort", "black" },
-				java = { "google-java-format" },
+				java = { "google-java-format", args = { "--aosp" } },
 				json = { "prettier" },
 				sql = { "sql_formatter" },
+				xml = { "xmlformatter" },
 			},
 			format_on_save = {
 				lsp_fallback = true, -- If no formatter is found, try the LSP

@@ -16,6 +16,7 @@ require("lazy").setup({
 	require("plugins.telescope"),
 	require("plugins.lualine"),
 	require("plugins.which-key"),
+	require("plugins.markdown-preview"),
 })
 
 -- Vim options
